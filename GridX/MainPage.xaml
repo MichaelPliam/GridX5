@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="Blue"
+             x:Class="GridX.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="Microsoft.png" Text="Item 1" Priority="0" />
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="Xamarin.png" Text="Item 2" Priority="1" />
+    </ContentPage.ToolbarItems>
+    
+    <Grid Margin="20,55,10,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="0.15*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+           Text="Input :" 
+           TextColor="DarkOrange"
+           FontSize="Title"
+           FontAttributes="Bold"/>
+        <Label Grid.Column="1"
+           Text="" />
+        <Label Grid.Row="1"
+           Text="IBO (feet per second):"         
+           TextColor="White" 
+           FontSize="Title"/>
+        <Entry x:Name="IBO"  Placeholder=""
+           Grid.Row="1"
+           Grid.Column="1" 
+           HeightRequest="0.5"
+           BackgroundColor="White"
+           TextColor="Black"
+           CursorPosition="2"/>
+        <Label Grid.Row="2"
+           Text="Draw Length (inches):"
+           TextColor="White" 
+           FontSize="Title"/>
+        <Entry  x:Name="DrawLength" Placeholder=""
+           Grid.Row="2"
+           Grid.Column="1" 
+           HeightRequest="0.5"
+           BackgroundColor="White"
+          TextColor="Black"
+           CursorPosition="2"/>
+        <Label Grid.Row="3"
+           Text="Draw Weight (pounds):"
+           TextColor="White" 
+           FontSize="Title"/>
+        <Entry  x:Name="DrawWeight" Placeholder=""
+           Grid.Row="3"
+           Grid.Column="1" 
+           HeightRequest="0.5"
+           BackgroundColor="White"
+           TextColor="Black"
+           CursorPosition="2"/>
+        <Label Grid.Row="4"
+           Text="Arrow Weight (grains):"
+           TextColor="White" 
+           FontSize="Title"/>
+        <Entry  x:Name="ArrowWeight" Placeholder=""
+           Grid.Row="4"
+           Grid.Column="1" 
+           HeightRequest="0.5"
+           BackgroundColor="White"
+          TextColor="Black"
+           CursorPosition="2"/>
+        <Label Grid.Row="5"
+           Text="Output :" 
+           TextColor="DarkOrange"
+           FontSize="Title"
+           FontAttributes="Bold"/>
+        <Label Grid.Column="1"
+           Text="" />
+        <Label Grid.Row="6"
+           Text="True Arrow Speed (fps) :"
+           TextColor="White" 
+           FontSize="Title"/>
+        <Label x:Name="TrueArrowSpeed" 
+           Grid.Row="6" 
+           Grid.Column="1"
+           TextColor="White"
+           FontSize="Title"
+           BackgroundColor="Blue"
+           Text="254" />
+        <Label Grid.Row="7"
+           Text="Kinetic Energy (lb-ft/s) :"
+           TextColor="White" 
+           FontSize="Title"/>
+        <Label x:Name="KineticEnergy" 
+           Grid.Row="7" 
+           Grid.Column="1"
+           TextColor="White"
+           FontSize="Title"
+           BackgroundColor="Blue"
+           Text="52.3" />
+        <Label Grid.Row="8"
+           Text="Momentum (lb-ft) :"
+           TextColor="White" 
+           FontSize="Title"/>
+        <Label x:Name="Momentum" 
+           Grid.Row="8" 
+           Grid.Column="1"
+           TextColor="White"
+           FontSize="Title"
+           BackgroundColor="Blue"
+           Text="0.41" />
+
+        <StackLayout Grid.Row="9" Orientation="Horizontal">
+        <Button x:Name="Calc" Text="CALC"
+            BackgroundColor="DarkOrange"
+            TextColor="White"
+            FontSize="Title"
+            FontAttributes="Bold"
+            BorderWidth="5"
+            Clicked="OnCalcButtonClicked" />
+        <!--" Clicked="submit_Clicked"/> -->
+        <Button x:Name="Next" Text="Next"
+            BackgroundColor="DarkOrange"
+            TextColor="White"
+            FontSize="Title"
+            FontAttributes="Bold"
+            BorderWidth="5" />
+        <Button x:Name="Graph" Text="Graph"
+            BackgroundColor="DarkOrange"
+            TextColor="White"
+            FontSize="Title"
+            FontAttributes="Bold"
+            BorderWidth="5" />
+        <Button x:Name="Help" Text="Help"
+            BackgroundColor="DarkOrange"
+            TextColor="White"
+            FontSize="Title"
+            FontAttributes="Bold"
+            BorderWidth="5" />
+        </StackLayout>
+        
+    </Grid>
+
+ 
+</ContentPage>

@@ -1,0 +1,12 @@
+C:\REPOS\GridX5\GridX\bin\Debug\netstandard2.0\GridX.deps.json
+C:\REPOS\GridX5\GridX\bin\Debug\netstandard2.0\GridX.dll
+C:\REPOS\GridX5\GridX\bin\Debug\netstandard2.0\GridX.pdb
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\GridX.csprojAssemblyReference.cache
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\GridX.csproj.CoreCompileInputs.cache
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\GridX.AssemblyInfoInputs.cache
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\GridX.AssemblyInfo.cs
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\XamlC.stamp
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\GridX.dll
+C:\REPOS\GridX5\GridX\obj\Debug\netstandard2.0\GridX.pdb
